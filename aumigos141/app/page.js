@@ -9,7 +9,7 @@ export default function Home() {
       <section id="cabecalho">
         <header id="logo">
           <h1>Busca por Aumigos</h1>
-          <img id="gato"
+          <img
             src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png"
             alt="Cat with magnifying glass"
           />
