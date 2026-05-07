@@ -1,26 +1,24 @@
+import Link from 'next/link';
 export const metadata = {
   title: "Busca por Aumigos",
-  viewport: "width=device-width, initial-scale=1.0",
 };
+export const viewport = "width=device-width, initial-scale=1.0";
 import styles from "./page.module.css";
 export default function Home() {
   return (
-    <>
+    <main>
       <section id="cabecalho">
         <header id="logo">
           <h1>Busca por Aumigos</h1>
-          <img
-            src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png"
-            alt="Cat with magnifying glass"
-          />
+          <img src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png" alt="Cat with magnifying glass"/>
           <br />
         </header>
         <footer id="paginas">
-          <a href="busca-aumigos-index.html">Home</a>
-          <a href="aumigos-cachorros.html">Cachorros</a>
-          <a href="aumigos-gatos.html">Gatos</a>
-          <a href="aumigos-variados.html">Variados</a>
-          <a href="aumigos-sobrenos.html">Sobre Nós</a>
+          <Link href="/">Home</Link>
+          <Link href="/aumigos-cachorros">Cachorros</Link>
+          <Link href="/aumigos-gatos">Gatos</Link>
+          <Link href="/aumigos-variados">Variados</Link>
+          <Link href="/aumigos-sobrenos">Sobre Nós</Link>
         </footer>
       </section>
       <section id="animais">
@@ -100,6 +98,6 @@ export default function Home() {
           <button type="submit">Enviar</button>
         </form>
       </section>
-    </>
+    </main>
   );
 }
