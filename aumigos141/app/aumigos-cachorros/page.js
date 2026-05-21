@@ -1,0 +1,109 @@
+import Link from "next/link";
+
+export const metadata = {
+  title: "Cachorros - Busca por Aumigos",
+};
+
+export const viewport = "width=device-width, initial-scale=1.0";
+
+export default function Cachorros() {
+  return (
+    <main>
+      <section id="cabecalho">
+        <header id="logo">
+          <h1>Busca por Aumigos</h1>
+          <img
+            src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png"
+            alt="Cat with magnifying glass"
+          />
+          <br />
+        </header>
+        <footer id="paginas">
+          <Link href="/">Home</Link>
+          <Link href="/aumigos-cachorros">Cachorros</Link>
+          <Link href="/aumigos-gatos">Gatos</Link>
+          <Link href="/aumigos-variados">Variados</Link>
+          <Link href="/aumigos-sobrenos">Sobre Nós</Link>
+        </footer>
+      </section>
+      <section id="animais">
+        <article className="procurados">
+          <img
+            src="https://www.portaldodog.com.br/wp-content/uploads/2022/11/cute-spitz-scaled.jpg"
+            alt="Cachorro Felix"
+          />
+          <div className="descricao">
+            <h2>Felix, desaparecido em 20/07/20XX</h2>
+            <p>
+              Cachorro da cor caramelo/dourado
+              <br />
+              5 anos
+              <br />
+              7 kg
+              <br />
+              Foi visto por último no KM 18, Osasco-SP
+              <br />
+              Número para contato: (11) 656-312
+            </p>
+          </div>
+        </article>
+        <article className="procurados">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQznkfqfOBoDTuq85zgEnInxKmcb8qdXhW8Pw&s"
+            alt="Pinscher nada hostil"
+          />
+          <div className="descricao">
+            <h2>Francisco, desaparecido em 12/06/20XX</h2>
+            <p>
+              Cachorro preto e marrom
+              <br />
+              10 anos
+              <br />
+              4 kg
+              <br />
+              Foi visto por último no Jardim Adalgisa, Osasco-SP
+              <br />
+              Número para contato: (11) 599-266
+            </p>
+          </div>
+        </article>
+        <article className="procurados">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxW1VYceivVW3OkJ5bCDpmIXcPdN7kpnQYoQ&s"
+            alt="Cachorro branco"
+          />
+          <div className="descricao">
+            <h2>Dante, desaparecido em 30/11/20XX</h2>
+            <p>
+              Cachorro branco e marrom
+              <br />
+              1 ano
+              <br />
+              2 kg
+              <br />
+              Foi visto por último na Vila Campesina, Osasco-SP
+              <br />
+              Número para contato: (11) 551-902
+            </p>
+          </div>
+        </article>
+      </section>
+      <section id="contato">
+        <form>
+          <h2>Entre em contato conosco:</h2>
+          Nome: <input type="text" name="Nome" required />
+          <br />
+          E-mail: <input type="email" name="email" required />
+          <br />
+          Telefone: <input type="tel" name="telephone" required />
+          <br />
+          Cachorro: <input type="radio" name="tipo" value="cachorro" />
+          Gato: <input type="radio" name="tipo" value="gato" />
+          Variados: <input type="radio" name="tipo" value="variados" />
+          <br />
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+  );
+}
