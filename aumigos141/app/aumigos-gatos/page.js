@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MapaBusca from "./MapaBusca";
+import MapaBusca from "../MapaBusca";
 export const metadata = {
   title: "Gatos - Busca por Aumigos",
 };

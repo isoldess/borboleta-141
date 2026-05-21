@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MapaBusca from "./MapaBusca";
+import MapaBusca from "../MapaBusca";
 export const metadata = {
   title: "Variados - Busca por Aumigos",
   description: "Criado para achar seu bichinho perdido",

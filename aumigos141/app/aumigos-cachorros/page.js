@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MapaBusca from "./MapaBusca";
+import MapaBusca from "../MapaBusca";
 export const metadata = {
   title: "Cachorros - Busca por Aumigos",
 };
@@ -106,7 +106,7 @@ export default function Cachorros() {
             </section>
             <footer className="mapa-wrapper">
               <h2> Veja onde seu animal pode estar:<br></br></h2>
-                      <MapaBusca  />
+              <MapaBusca  />
             </footer>
             </section>
     </main>
