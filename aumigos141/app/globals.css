@@ -50,9 +50,24 @@ body{
     padding-left: 2vh;
 }
 #contato{
-    margin-left:2vh;
-    margin-right: 2vh;
     display: flex;
     justify-content:right;
-    margin-top: -145vh;
+}
+#contato-wrapper {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  margin-top: -145vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#mapa-wrapper {
+  width:300px;
+  margin-top: 24px;
+}
+
+#mapa-wrapper .leaflet-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 8px;
 }

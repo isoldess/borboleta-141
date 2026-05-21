@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import MapaBusca from "./MapaBusca";
 export const metadata = {
   title: "Variados - Busca por Aumigos",
   description: "Criado para achar seu bichinho perdido",
@@ -87,22 +87,27 @@ export default function Variados() {
           </div>
         </article>
       </section>
-      <section id="contato">
-        <form>
-          <h2>Entre em contato conosco:</h2>
-          Nome: <input type="text" name="Nome" required />
-          <br />
-          E-mail: <input type="email" name="email" required />
-          <br />
-          Telefone: <input type="tel" name="telephone" required />
-          <br />
-          Cachorro: <input type="radio" name="tipo" value="cachorro" />
-          Gato: <input type="radio" name="tipo" value="gato" />
-          Variados: <input type="radio" name="tipo" value="variados" />
-          <br />
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
+      <section id="contato-wrapper">
+              <section id="contato">
+              <form>
+                <h2>Entre em contato conosco:</h2>
+                Nome: <input type="text" name="Nome:" required />
+                <br />
+                E-mail: <input type="email" name="email" required />
+                Telefone: <input type="tel" name="telephone" required />
+                <br />
+                Cachorro: <input type="radio" name="tipo" />
+                Gato: <input type="radio" name="tipo" />
+                Variados: <input type="radio" name="tipo" />
+                <br />
+                <button type="submit">Enviar</button>
+              </form>
+            </section>
+            <footer className="mapa-wrapper">
+              <h2> Veja onde seu animal pode estar:<br></br></h2>
+                      <MapaBusca  />
+            </footer>
+            </section>
     </main>
   );
 }

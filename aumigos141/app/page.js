@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import MapaBusca from "./MapaBusca";
 export const metadata = {
   title: "Busca por Aumigos",
 };
@@ -83,7 +84,8 @@ export default function Home() {
           </div>
         </article>
       </section>
-      <section id="contato">
+      <section id="contato-wrapper">
+        <section id="contato">
         <form>
           <h2>Entre em contato conosco:</h2>
           Nome: <input type="text" name="Nome:" required />
@@ -97,6 +99,11 @@ export default function Home() {
           <br />
           <button type="submit">Enviar</button>
         </form>
+      </section>
+      <footer className="mapa-wrapper">
+        <h2> Veja onde seu animal pode estar:<br></br></h2>
+                <MapaBusca  />
+      </footer>
       </section>
     </main>
   );
