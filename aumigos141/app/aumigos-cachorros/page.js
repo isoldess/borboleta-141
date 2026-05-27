@@ -18,14 +18,14 @@ export default function Cachorros() {
           />
           <br />
         </header>
-        <footer id="paginas">
+        </section>
+        <nav id="paginas">
           <Link href="/">Home</Link>
           <Link href="/aumigos-cachorros">Cachorros</Link>
           <Link href="/aumigos-gatos">Gatos</Link>
           <Link href="/aumigos-variados">Variados</Link>
           <Link href="/aumigos-sobrenos">Sobre Nós</Link>
-        </footer>
-      </section>
+        </nav>
       <section id="animais">
         <article className="procurados">
           <img
