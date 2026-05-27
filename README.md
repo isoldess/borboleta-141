@@ -11,7 +11,7 @@ A proposta inicial é criar um site para anunciar o desaparecimento de animais n
     
     metadata – objeto exportado com o título da aba do navegador: "Busca por Aumigos".
     viewport – string exportada que define a meta viewport para dispositivos móveis.
-    styles – módulo CSS importado de ./page.module.css (não utilizado explicitamente nas classes do JSX retornado).
+    styles – módulo CSS importado de ./page.module.css.
 
     #contato – formulário HTML com campos Nome, E-mail, Telefone, radio buttons (Cachorro / Gato / Variados) e botão de envio.
     .mapa-wrapper (footer) – renderiza o componente <MapaBusca /> abaixo do formulário.
