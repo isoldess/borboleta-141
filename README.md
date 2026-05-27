@@ -1,5 +1,5 @@
 # Busca por Aumigos
-
+# Feito por Enzo de Paula Souza RA: 10752714 e Matheus Reis da Silva Maglio RA: 10756191
 #   Ideação
 A proposta inicial é criar um site para anunciar o desaparecimento de animais na região de Osasco,sejam cachorros,gatos ou qualquer tipo de animal, o site inclui todos os animais de estimação.
 
