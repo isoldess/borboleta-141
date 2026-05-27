@@ -29,7 +29,7 @@ export default function Home() {
             alt="Gato Joaquim"
           />
           <div className="descricao">
-            <h2>Joaquim,Desaparecido em 20/02/20XX</h2>
+            <h2>Joaquim,Desaparecido em 20/05/20XX</h2>
             <p>
               Gato de pelagem escura
               <br />
