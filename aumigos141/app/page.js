@@ -14,13 +14,13 @@ export default function Home() {
           <img src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png" alt="Cat with magnifying glass"/>
           <br />
         </header>
-        <footer id="paginas">
+        <nav id="paginas">
           <Link href="/">Home</Link>
           <Link href="/aumigos-cachorros">Cachorros</Link>
           <Link href="/aumigos-gatos">Gatos</Link>
           <Link href="/aumigos-variados">Variados</Link>
           <Link href="/aumigos-sobrenos">Sobre Nós</Link>
-        </footer>
+        </nav>
       </section>
       <section id="animais">
         <article className="procurados">
@@ -83,8 +83,7 @@ export default function Home() {
             </p>
           </div>
         </article>
-      </section>
-      <section id="contato-wrapper">
+        <section id="contato-wrapper">
         <section id="contato">
         <form>
           <h2>Entre em contato conosco:</h2>
@@ -104,6 +103,7 @@ export default function Home() {
         <h2> Veja onde seu animal pode estar:<br></br></h2>
                 <MapaBusca  />
       </footer>
+      </section>
       </section>
     </main>
   );

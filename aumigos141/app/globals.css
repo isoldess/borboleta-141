@@ -8,14 +8,16 @@ body{
 }
 
 #logo img{
-    width: 150px ;
-    height: 100px;
+    display:flex;
+    align-items: center;
+    width: 20vh ;
+    height: 18vh;
 }
 #logo{
     display:flex;
     align-content:flex-start;
     height:15vh;
-    width:50vh;
+    width:100%;
 }
 #paginas{
     margin-top: 2vh;
@@ -33,13 +35,14 @@ body{
     margin-left: 2vh;
     margin-bottom: 4vh;
     margin-right: 2vh;
+    max-width: 100%;
 }
 .procurados{
     display: flex;
 }
 .procurados img{
-  width: 200px;
-  height: 300px;
+  width: 20vh;
+  height: 30vh;
 }
 .descricao{
     margin-top: -3vh;margin-left: 0;}
@@ -56,18 +59,19 @@ body{
 #contato-wrapper {
   margin-left: 2vh;
   margin-right: 2vh;
-  margin-top: -145vh;
+  margin-top: -108vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  max-width:100%;
 }
 #mapa-wrapper {
-  width:300px;
-  margin-top: 24px;
+  width:200vh;
+  margin-top: 10vh;
 }
 
 #mapa-wrapper .leaflet-container {
-  height: 400px;
+  height: 10vh;
   width: 100%;
   border-radius: 8px;
 }
