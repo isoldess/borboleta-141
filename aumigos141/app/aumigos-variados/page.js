@@ -48,7 +48,7 @@ export default function Variados() {
         </article>
         <article className="procurados">
           <img
-            src="https://www.petz.com.br/blog/wp-content/uploads/2024/07/porquinho-da-india-pode-comer-cebola-interna2.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmwwhSLK2N_-X8zHujj12zInQ1rZvPlkbcTg&s"
             alt="Porquinho da india"
           />
           <div className="descricao">

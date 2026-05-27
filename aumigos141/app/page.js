@@ -14,6 +14,7 @@ export default function Home() {
           <img src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png" alt="Cat with magnifying glass"/>
           <br />
         </header>
+        </section>
         <nav id="paginas">
           <Link href="/">Home</Link>
           <Link href="/aumigos-cachorros">Cachorros</Link>
@@ -21,7 +22,6 @@ export default function Home() {
           <Link href="/aumigos-variados">Variados</Link>
           <Link href="/aumigos-sobrenos">Sobre Nós</Link>
         </nav>
-      </section>
       <section id="animais">
         <article className="procurados">
           <img
